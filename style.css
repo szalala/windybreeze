@@ -1,0 +1,282 @@
+
+.fa-feather-alt {
+	color: #ffffff;
+	font-size: 56px;
+}
+
+
+.nav-link {
+	color: white;
+	letter-spacing: .5rem;
+}
+
+#link-yellow:hover {
+	color: #cda20b;
+}
+
+.bannerHead {
+	background-image: url(img/banner-head.jpg);
+	background-size: cover;
+	background-position: top;
+	height: 450px;
+}
+
+.bannerHead h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 116px;
+	color: #fbfbf5;
+}
+
+.bannerHead p {
+	color: #fbfbf5;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+
+#gallery {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: -80px; 	
+}
+
+.gallery-body-name {
+	font-family: 'Righteous', cursive;
+	font-size: 12px;
+	color: #cda20b;
+	font-weight: 700;
+	letter-spacing: .3rem;
+}
+
+.linkGallery a {
+	font-size: 16px;
+	color: black;
+	transition: color .4s ease-in;
+}
+
+.read-more:hover {
+	color: #cda20b;
+}
+
+.linkGallery:active {
+	transform: scale(1.05);
+}
+
+.line {
+	display: flex;
+    background: #cda20b;
+    height: 2px;
+    flex-grow: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 40px solid #fff;
+}
+
+.bannerQuote {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bannerQuote-bold {
+	font-size: 52px;
+}
+.normal {
+	font-size: 14px;
+	line-height: 2.5;
+}
+
+.banner2 {
+	height: 350px;
+	background-image: url("img/banner2.3.png");
+	background-size: cover;
+	background-position: center;	
+}
+
+
+.item-square-yellow {
+	background-color: #cda20b;
+}
+.item-square-pink {
+	background-color: #9d0e3d;
+}
+
+
+.foto-square {
+	height: auto;
+	max-width: 100%;
+	transition: all .35s ease-in-out;
+}
+
+.foto-square {
+	height: auto;
+	max-width: 100%;
+	transition: all .35s ease-in-out;
+}
+
+.foto-square:hover{
+	opacity: 0.5;
+	filter: grayscale(100%);
+}
+
+
+.doSth {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+.frame-window {
+  position: absolute;
+  shape-outside: ellipse(100px 200px at 50% 50%);
+  width: 550px;
+  height: 300px;
+  border: 4px solid #9d0e3d;
+  float: left;
+  background-color: lighten(purple, 60);
+  z-index: 2;
+  margin-left: 110px;
+  margin-top: 90px;
+}
+
+.frame-window:hover {
+	transform: scale(1.02);
+	cursor: pointer;
+}
+.text-above-foto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #9d0e3d;
+}
+.text-on-foto {
+	position: absolute;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 52px;
+	font-weight: 300;
+	margin-top: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.text-under-foto {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	border: solid 1px #9d0e3d;
+}
+
+.text-face {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #9d0e3d;
+
+	letter-spacing: .3rem;
+}
+
+
+.ptak {
+	position: absolute;
+	height: 200px;
+	width: auto;
+	color: pink;
+	margin-top: 20px;
+	margin-left: 20px;
+	opacity: .7;
+}
+
+.moon {
+	position: absolute;
+	max-height: 550px;
+	width: auto;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+
+.moonContainer {
+	margin-top: 150px;
+}
+.moonContainer p {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 2.5;
+}
+
+.man-foto {
+	max-height: 470px;
+	width: auto;
+}
+.frame {
+	position: absolute;
+  	shape-outside: ellipse(100px 200px at 50% 50%);
+  	width: 350px;
+  	height: 470px;
+  	border: 4px solid #9d0e3d;
+  	float: left;
+  	background-color: lighten(purple, 60);
+  	z-index: 2;
+  	margin-left: 25px;
+	margin-top: -20px;
+}
+
+.boldManText {
+	color: #9d0e3d;
+	font-weight: 700;
+	letter-spacing: .2rem;
+}
+
+.quote {
+	margin-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+	
+
+}
+
+.quoteTextMain {
+	font-size: 22px;
+}
+
+.kafelkiPogoda {
+	margin-top: 150px;
+
+
+}
+
+
+
+.icon-kafelki  {
+	font-size: 60px;
+	margin: 25px auto;
+	
+}
+
+.blue {
+	color: #cda20b;
+}
+.pink {
+	color: #9d0e3d;
+
+}
+
+.kafelkiPogoda p {
+	font-size: 16px;
+}
+
+.bottom-space {
+	height: 150px; 
+	background-color: #343a40; 
+	margin-top: 150px;
+}
+
+.footer-column {
+	width: 30px;
+	height: 30px;
+	
+}
+
+.footer-column-right {
+	width: 30px;
+	height: 30px;
+	font-size: 40px;
+
+}

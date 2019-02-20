@@ -18,12 +18,17 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.go-back {
+.go-back, .next {
 	color: #000;
 	font-size: .8rem;
 }
 
 .go-back:hover {
+	color: #cda20b;
+	font-size: .8rem;
+}
+
+.next:hover {
 	color: #cda20b;
 	font-size: .8rem;
 }

@@ -79,7 +79,6 @@ h3 {
 	line-height: 2.5;
 }
 
-
 .par-line {
     letter-spacing: 2px;
     color: #000;
@@ -97,23 +96,10 @@ h3 {
 }
 
 
-.bannerQuote {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.bannerQuote-bold {
-	font-size: 52px;
-}
-.normal {
-	font-size: 14px;
-	line-height: 2.5;
-}
-
 .bottom-space {
 	height: 150px; 
 	background-color: #343a40; 
+	margin-top: 100px;
 	
 	
 }
@@ -135,3 +121,44 @@ h3 {
 	font-size: 40px;
 
 }
+
+
+/*SECTION LATEST*/
+
+.foto-latest {
+	margin-top: 20px;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.item-foto {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.item-text {
+	position: absolute;
+    width: 100%;
+    bottom: 60px;
+    background: rgba(255,255,255,0.75);
+    color: #696969;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 25px 0px 0px;
+    text-transform: uppercase;
+}
+
+.item-mini {
+	position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    box-shadow: rgba(200, 200, 200, 0.3) 5px 5px 15px;
+    top: -20px;
+    margin: auto;
+    background: #cda20b;
+    padding: 10px 25px;
+    font-size: .8em;

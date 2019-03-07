@@ -1,3 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    overflow-x:hidden;
+}
+* {
+	 box-sizing: border-box;
+}
 
 .fa-feather-alt {
 	color: #ffffff;
@@ -239,7 +249,7 @@
 
 .kafelkiPogoda {
 	margin-top: 150px;
-
+	margin-bottom: 150px;
 
 }
 
@@ -262,6 +272,40 @@
 .kafelkiPogoda p {
 	font-size: 16px;
 }
+
+
+.angle {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+
+.angle_bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#2b0549, #7b297d);
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  z-index: 7;
+}
+
+.angle p {
+	position: relative;
+  margin: 0;
+  padding: 100px 0;
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2rem;
+  z-index: 10;
+}
+
+
 
 .btnUp {
 	margin-top: 150px;
